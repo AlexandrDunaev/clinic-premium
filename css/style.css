@@ -303,6 +303,11 @@ body {
 
 
 /* -----------------------------HEADER----------------------------- */
+
+
+
+
+
 .header-top {
    height: 70px;
    border-bottom: 2px solid var(--main);
@@ -397,6 +402,10 @@ body {
    height: 100%;
 }
 
+.burger-menu {
+   display: none;
+}
+
 .header-bottom__nav-list {
    display: flex;
    justify-content: space-evenly;
@@ -434,6 +443,9 @@ body {
 
 
 /* -----------------------------HERO----------------------------- */
+
+
+
 
 .hero {
    position: relative;
@@ -625,7 +637,11 @@ body {
 }
 
 
+
 /* -----------------------------BANNER----------------------------- */
+
+
+
 .banner {
    padding-top: 78px;
    padding-bottom: 114px;
@@ -675,6 +691,9 @@ body {
 
 
 /* -----------------------------APPEAL----------------------------- */
+
+
+
 .appeal {
    position: relative;
    padding-top: 50px;
@@ -765,7 +784,11 @@ body {
 
 
 
+
 /* -----------------------------BENEFITS----------------------------- */
+
+
+
 
 .benefits {
    padding-top: 30px;
@@ -823,6 +846,9 @@ body {
 
 
 /* -----------------------------TASKS----------------------------- */
+
+
+
 
 .tasks {
    padding-top: 15px;
@@ -888,6 +914,8 @@ body {
 
 
 /* -----------------------------TEAM -----------------------------*/
+
+
 
 .team {
    position: relative;
@@ -1023,10 +1051,10 @@ body {
 
 
 
-
-
-
 /* -----------------------------REVIEWS----------------------------- */
+
+
+
 .reviews {
    background-image: url(../img/hero/hero-img-bg.png);
    background-position: center;
@@ -1117,13 +1145,14 @@ body {
 
 /* -----------------------------CERTIFICATES----------------------------- */
 
+
+
+
 .certificates {
    padding-top: 25px;
    padding-bottom: 5px;
    background-color: rgba(210, 190, 159, 0.6);
 }
-
-.sertificates__container {}
 
 .sertificates__title-block {
    display: flex;
@@ -1186,6 +1215,10 @@ body {
 
 
 /* -----------------------------MORE----------------------------- */
+
+
+
+
 
 .more {
    position: relative;
@@ -1256,6 +1289,8 @@ body {
 /* -----------------------------CONTACTS----------------------------- */
 
 
+
+
 .contacts {
    padding-top: 15px;
    padding-bottom: 30px;
@@ -1286,6 +1321,8 @@ body {
 
 
 /* -----------------------------FOOTER----------------------------- */
+
+
 
 .footer {
    margin-top: 37px;
@@ -1343,4 +1380,1557 @@ body {
    line-height: 18px;
    text-align: center;
    color: #8C806E;
+}
+
+
+
+
+
+
+/* -----------------------------MEDIA----------------------------- */
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+   /* -----------------------------HEADER----------------------------- */
+
+   /* -----------------------------HERO----------------------------- */
+
+   /* -----------------------------INFO----------------------------- */
+
+   /* -----------------------------BANNER----------------------------- */
+
+   /* -----------------------------APPEAL----------------------------- */
+
+   /* -----------------------------BENEFITS----------------------------- */
+
+   /* -----------------------------TASKS----------------------------- */
+
+   /* -----------------------------TEAM -----------------------------*/
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+   /* -----------------------------DISCONT----------------------------- */
+
+   /* -----------------------------CERTIFICATES----------------------------- */
+
+   /* -----------------------------MORE----------------------------- */
+
+
+   .more__content-img {
+      bottom: 25px;
+      left: -40px;
+      width: 420px;
+      height: 500px;
+   }
+
+
+   /* -----------------------------CONTACTS----------------------------- */
+
+
+   .contacts__content-left {
+      left: -30px;
+   }
+
+
+
+
+   /* -----------------------------FOOTER----------------------------- */
+
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+   /* -----------------------------HEADER----------------------------- */
+
+
+
+
+   .header__top-descr {
+      padding: 0;
+      font-size: 16px;
+   }
+
+   .header__top-link {
+      font-size: 14px;
+   }
+
+   .header-bottom__nav-link {
+      font-size: 16px;
+   }
+
+   .header-top__btn-block {
+      font-size: 14px;
+   }
+
+   .header-top__btn {
+      width: 120px;
+   }
+
+
+
+
+   /* -----------------------------HERO----------------------------- */
+
+
+
+   .hero {
+      padding-top: 45px;
+      padding-bottom: 45px;
+   }
+
+   .hero__container .bx-wrapper {
+      margin-bottom: 30px;
+   }
+
+   .hero__container .bx-wrapper .bx-pager {
+      bottom: -30px;
+   }
+
+
+
+   /* -----------------------------INFO----------------------------- */
+
+
+
+
+   .info {
+      padding-top: 45px;
+      padding-bottom: 45px;
+   }
+
+   .info__title {
+      font-size: 32px;
+      line-height: 40px;
+   }
+
+   .info__descr {
+      font-size: 24px;
+   }
+
+   .info__content-img {
+      width: 100%;
+   }
+
+
+
+
+   /* -----------------------------BANNER----------------------------- */
+
+
+
+
+
+   /* -----------------------------APPEAL----------------------------- */
+
+   .appeal__content-text {
+      margin-bottom: 30px;
+   }
+
+
+
+   /* -----------------------------BENEFITS----------------------------- */
+
+
+
+   .benefits__title {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+   }
+
+   .benefits__list-item {
+      font-size: 18px;
+   }
+
+
+
+   /* -----------------------------TASKS----------------------------- */
+
+
+
+
+   .tasks__card-btn {
+      text-align: center;
+   }
+
+
+
+
+   /* -----------------------------TEAM -----------------------------*/
+
+
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+
+
+
+
+   /* -----------------------------DISCONT----------------------------- */
+
+
+   .discont__content-title {
+      margin-bottom: 30px;
+      font-size: 32px;
+      line-height: 32px;
+   }
+
+   .discont__content-subtitle {
+      font-size: 22px;
+   }
+
+   .discont__content-text {
+      margin-bottom: 20px;
+      font-size: 20px;
+      line-height: 32px;
+   }
+
+   .discont__subtitle {
+      margin-top: 45px;
+      font-size: 26px;
+   }
+
+
+   /* -----------------------------CERTIFICATES----------------------------- */
+
+
+
+
+
+   /* -----------------------------MORE----------------------------- */
+
+   .more__content-img {
+      bottom: 100px;
+      left: 0;
+      width: 350px;
+      height: 450px;
+   }
+
+
+
+
+   /* -----------------------------CONTACTS----------------------------- */
+
+   .contacts__content-left {
+      left: -10px;
+   }
+
+   .contacts__content-text {
+      font-size: 20px;
+   }
+
+
+
+
+   /* -----------------------------FOOTER----------------------------- */
+
+
+
+
+   .footer__title {
+      font-size: 22px;
+   }
+
+   .footer__list-link {
+      font-size: 16px;
+   }
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+
+   /* -----------------------------HEADER----------------------------- */
+
+   .header-top {
+      padding-bottom: 10px;
+      height: auto;
+   }
+
+   .header-top__column {
+      justify-content: center;
+   }
+
+   .header__top-descr {
+      padding: 0;
+      font-size: 16px;
+   }
+
+   .header__top-link {
+      font-size: 14px;
+   }
+
+   .header-bottom__nav-list {
+      padding: 0;
+   }
+
+   .header-bottom__nav-link {
+      font-size: 14px;
+      font-weight: 500;
+   }
+
+   .header-top__btn-block {
+      font-size: 14px;
+   }
+
+   .header-top__btn {
+      width: 120px;
+   }
+
+
+
+
+   /* -----------------------------HERO----------------------------- */
+
+
+   .hero {
+      padding-top: 45px;
+      padding-bottom: 25px;
+   }
+
+   .hero__container .bx-wrapper {
+      margin-bottom: 30px;
+   }
+
+   .hero__container .bx-wrapper .bx-pager {
+      bottom: -30px;
+   }
+
+   .hero__content-left {
+      width: 390px;
+      height: 370px;
+   }
+
+   .hero__container .bx-viewport {
+      height: 410px !important;
+   }
+
+   .hero__content-right {
+      height: auto;
+      padding-left: 25px;
+   }
+
+   .hero__content-title {
+      margin-bottom: 20px;
+      font-size: 28px;
+   }
+
+
+
+   /* -----------------------------INFO----------------------------- */
+
+
+
+   .info {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+   .info__title {
+      font-size: 28px;
+      line-height: 32px;
+   }
+
+   .info__descr {
+      font-size: 24px;
+   }
+
+   .info__content-text {
+      padding-top: 0;
+      line-height: 32px;
+      text-align: center;
+      padding-bottom: 10px;
+   }
+
+   .info__content-right {
+      padding: 0 40px;
+   }
+
+   .info__content-img {
+      width: 100%;
+   }
+
+
+
+   /* -----------------------------BANNER----------------------------- */
+
+   .banner {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+   .banner__content {
+      justify-content: center;
+   }
+
+   .banner__content-left {
+      margin-bottom: 10px;
+   }
+
+   .banner__content-img {
+      width: 100%;
+   }
+
+   .banner__content-right {
+      padding-left: 0;
+   }
+
+   .banner__content-title {
+      font-size: 20px;
+   }
+
+   .banner__content-descr {
+      font-size: 18px;
+   }
+
+
+
+   /* -----------------------------APPEAL----------------------------- */
+
+
+
+   .appeal {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+   .appeal__content-title {
+      justify-content: center;
+   }
+
+   .appeal__content-text {
+      margin-bottom: 30px;
+   }
+
+
+   .appeal__img-block {
+      padding: 0 60px;
+   }
+
+
+
+
+   /* -----------------------------BENEFITS----------------------------- */
+
+   .benefits__title {
+      display: flex;
+      justify-content: center;
+      font-size: 32px;
+   }
+
+   .benefits__list-item {
+      font-size: 16px;
+   }
+
+
+
+
+
+
+   /* -----------------------------TASKS----------------------------- */
+
+
+
+
+   .tasks__card-btn {
+      text-align: center;
+   }
+
+
+
+
+
+   /* -----------------------------TEAM -----------------------------*/
+
+   .team__subtitlt {
+      font-size: 22px;
+   }
+
+   .team__title {
+      font-size: 30px;
+   }
+
+
+   .team__slider-content {
+      justify-content: space-evenly;
+   }
+
+   .team__column {
+      width: 210px;
+   }
+
+   .team__card {
+      height: 330px;
+   }
+
+   .team__card-body {
+      padding: 0px 5px;
+      font-size: 12px;
+      line-height: 20px;
+   }
+
+   .team__card-img {
+      height: auto;
+   }
+
+   .team__card-title {
+      font-size: 12px;
+   }
+
+   .team__content-text {
+      font-size: 20px;
+      line-height: 26px;
+   }
+
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+   .reviews__video-block {
+      height: 500px;
+   }
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+
+
+
+
+
+   /* -----------------------------DISCONT----------------------------- */
+
+
+
+
+   .discont__content-column {
+      margin-bottom: 20px;
+   }
+
+   .discont__content-title {
+      margin-bottom: 30px;
+      font-size: 32px;
+      line-height: 32px;
+   }
+
+   .discont__content-subtitle {
+      font-size: 22px;
+   }
+
+   .discont__content-text {
+      margin-bottom: 20px;
+      font-size: 20px;
+      line-height: 32px;
+   }
+
+   .discont__subtitle {
+      margin-top: 0px;
+      font-size: 26px;
+   }
+
+
+
+   /* -----------------------------CERTIFICATES----------------------------- */
+
+
+
+
+   .sertificates__title {
+      font-size: 26px;
+   }
+
+   .sertificates__slider-column {
+      width: 30%;
+   }
+
+   .sertificates__container .bx-viewport {
+      height: auto;
+   }
+
+
+
+   /* -----------------------------MORE----------------------------- */
+
+
+
+   .more__title {
+      margin-bottom: 30px;
+      font-size: 28px;
+      line-height: 38px;
+   }
+
+   .more__content-column {
+      justify-content: right;
+   }
+
+
+   .more__content-img {
+      bottom: 100px;
+      left: 0;
+      width: 350px;
+      height: 450px;
+   }
+
+
+   .more__social-block {
+      padding-right: 50px;
+   }
+
+   /* -----------------------------CONTACTS----------------------------- */
+
+
+
+   .contacts__content-left {
+      left: 0;
+   }
+
+   .contacts__content-text {
+      font-size: 20px;
+   }
+
+   .contacts__content-img {
+      width: 100%;
+   }
+
+
+
+   /* -----------------------------FOOTER----------------------------- */
+
+   .footer__title {
+      justify-content: center;
+   }
+
+   .footer__icon {
+      padding-left: 0;
+   }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+   /* -----------------------------HEADER----------------------------- */
+
+
+   .header-top {
+      padding-bottom: 10px;
+      height: auto;
+   }
+
+   .header-top__column {
+      justify-content: center;
+      background-color: white;
+      z-index: 20;
+   }
+
+   .header__top-descr {
+      padding: 0;
+      font-size: 16px;
+   }
+
+   .header__top-link {
+      font-size: 14px;
+   }
+
+   .header-top__btn-block {
+      font-size: 14px;
+   }
+
+   .header-top__btn {
+      width: 120px;
+   }
+
+   .header-bottom__content {
+      display: none;
+   }
+
+   .burger-menu {
+      position: absolute;
+      /* display: flex; */
+      padding: 0 15px;
+      height: 200px;
+      width: 100%;
+      top: -160px;
+      left: 0;
+      right: 0;
+      background-color: var(--light);
+      z-index: -1;
+      transition: all .5s ease-in-out;
+      transform: translateY(322px);
+   }
+
+   /* -----------------------------HERO----------------------------- */
+
+
+   .hero__content-left {
+      padding-right: 0;
+   }
+
+   .hero {
+      padding-top: 45px;
+      padding-bottom: 25px;
+   }
+
+   .hero__container .bx-wrapper {
+      margin-bottom: 30px;
+   }
+
+   .hero__container .bx-wrapper .bx-pager {
+      bottom: -30px;
+   }
+
+   .hero__content-left {
+      width: 390px;
+      height: 370px;
+      margin-bottom: 25px;
+   }
+
+   .hero__container .bx-viewport {
+      height: 550px !important;
+   }
+
+   .hero__content-right {
+      height: auto;
+      padding-left: 0px;
+      margin-bottom: 25px;
+   }
+
+   .hero__content-title {
+      margin-bottom: 15px;
+      font-size: 22px;
+      line-height: 26px;
+   }
+
+
+
+   /* -----------------------------INFO----------------------------- */
+
+
+
+   .info {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+   .info__title {
+      font-size: 28px;
+      line-height: 32px;
+   }
+
+   .info__descr {
+      font-size: 24px;
+   }
+
+   .info__content-text {
+      padding-top: 0;
+      line-height: 32px;
+      text-align: center;
+      padding-bottom: 10px;
+   }
+
+   .info__content-right {
+      padding: 0 40px;
+   }
+
+   .info__content-img {
+      width: 100%;
+   }
+
+
+
+
+   /* -----------------------------BANNER----------------------------- */
+
+
+
+   .banner {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+   .banner__content {
+      justify-content: center;
+   }
+
+   .banner__content-left {
+      margin-bottom: 10px;
+   }
+
+   .banner__content-img {
+      width: 100%;
+   }
+
+   .banner__content-right {
+      padding-left: 0;
+   }
+
+   .banner__content-title {
+      font-size: 20px;
+   }
+
+   .banner__content-descr {
+      font-size: 18px;
+   }
+
+
+
+   /* -----------------------------APPEAL----------------------------- */
+
+
+
+   .appeal {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+   .appeal__content-title {
+      justify-content: center;
+   }
+
+   .appeal__content-text {
+      margin-bottom: 30px;
+   }
+
+
+   .appeal__img-block {
+      padding: 0 60px;
+   }
+
+
+
+   /* -----------------------------BENEFITS----------------------------- */
+
+
+
+   .benefits__title {
+      display: flex;
+      justify-content: center;
+      font-size: 22px;
+   }
+
+   .benefits__list-item {
+      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 18px;
+   }
+
+
+   .benefits__list-icon svg {
+      width: 24px;
+      height: 24px;
+   }
+
+
+
+   /* -----------------------------TASKS----------------------------- */
+
+
+
+   .tasks__content {
+      margin-bottom: 0;
+   }
+
+
+
+
+   /* -----------------------------TEAM -----------------------------*/
+
+
+
+   .team__subtitlt {
+      font-size: 22px;
+   }
+
+   .team__title {
+      font-size: 30px;
+   }
+
+
+   .team__container-top .bx-viewport {
+      height: 750px;
+   }
+
+   .team__slider-content {
+      justify-content: space-evenly;
+   }
+
+   .team__column {
+      width: 210px;
+      margin-bottom: 20px;
+   }
+
+   .team__card {
+      height: 330px;
+   }
+
+   .team__card-body {
+      padding: 0px 5px;
+      font-size: 12px;
+      line-height: 20px;
+   }
+
+   .team__card-img {
+      height: auto;
+   }
+
+   .team__card-title {
+      font-size: 12px;
+      line-height: 16px;
+      margin-bottom: 5px;
+   }
+
+   .team__card-text {
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   .team__content-text {
+      font-size: 20px;
+      line-height: 26px;
+   }
+
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+
+
+   .reviews__video-block {
+      height: 310px;
+   }
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+
+
+
+
+
+
+
+   /* -----------------------------DISCONT----------------------------- */
+
+
+
+   .discont__content-column {
+      margin-bottom: 20px;
+   }
+
+   .discont__content-title {
+      margin-bottom: 20px;
+      font-size: 24px;
+      line-height: 24px;
+   }
+
+   .discont__content-subtitle {
+      font-size: 18px;
+   }
+
+   .discont__content-text {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 26px;
+   }
+
+   .discont__subtitle {
+      margin-top: 0px;
+      margin-bottom: 5px;
+      font-size: 22px;
+   }
+
+
+
+
+   /* -----------------------------CERTIFICATES----------------------------- */
+
+
+
+   .sertificates__title {
+      font-size: 26px;
+   }
+
+   .sertificates__slider-column {
+      width: 30%;
+   }
+
+   .sertificates__container .bx-viewport {
+      height: auto !important;
+   }
+
+
+
+
+
+   /* -----------------------------MORE----------------------------- */
+
+
+
+
+   .more__title {
+      margin-bottom: 30px;
+      font-size: 28px;
+      line-height: 38px;
+   }
+
+   .more__content-column {
+      justify-content: right;
+   }
+
+
+   .more__content-img {
+      bottom: 100px;
+      left: 0;
+      width: 350px;
+      height: 450px;
+   }
+
+
+   .more__social-block {
+      padding-right: 0px;
+      text-align: right;
+   }
+
+
+
+   /* -----------------------------CONTACTS----------------------------- */
+
+
+   .contacts__content-left {
+      left: 0;
+   }
+
+   .contacts__content-text {
+      font-size: 20px;
+   }
+
+   .contacts__content-img {
+      width: 100%;
+   }
+
+
+
+
+
+   /* -----------------------------FOOTER----------------------------- */
+
+
+
+   .footer__title {
+      justify-content: center;
+      font-size: 20px;
+   }
+
+   .footer__icon {
+      padding-left: 0;
+   }
+
+
+
+
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+
+   /* -----------------------------HEADER----------------------------- */
+
+
+   .header-top {
+      padding-bottom: 10px;
+      height: auto;
+   }
+
+   .header-top__column {
+      justify-content: center;
+      background-color: white;
+      margin-bottom: 7px;
+      z-index: 20;
+   }
+
+   .header__top-descr {
+      padding: 0;
+      font-size: 16px;
+   }
+
+   .header__top-link {
+      font-size: 14px;
+   }
+
+   .header-top__btn-block {
+      font-size: 14px;
+   }
+
+   .header-top__btn {
+      width: 120px;
+   }
+
+   .header-bottom__content {
+      display: none;
+   }
+
+   .burger-menu {
+      position: absolute;
+      /* display: flex; */
+      padding: 0 15px;
+      height: 200px;
+      width: 100%;
+      top: -160px;
+      left: 0;
+      right: 0;
+      background-color: var(--light);
+      z-index: -1;
+      transition: all .5s ease-in-out;
+      transform: translateY(322px);
+   }
+
+   /* -----------------------------HERO----------------------------- */
+
+
+   .hero {
+      padding-top: 45px;
+      padding-bottom: 25px;
+   }
+
+   .hero__container .bx-wrapper {
+      margin-bottom: 0px;
+   }
+
+   .hero__container .bx-wrapper .bx-pager {
+      display: none;
+   }
+
+   .hero__content-left {
+      padding-right: 0;
+      height: auto;
+      width: 390px;
+      margin-bottom: 25px;
+   }
+
+   .hero__container .bx-viewport {
+      height: 550px !important;
+   }
+
+   .hero__content-right {
+      height: auto;
+      padding-left: 0px;
+      margin-bottom: 25px;
+   }
+
+   .hero__content-title {
+      margin-bottom: 15px;
+      font-size: 22px;
+      line-height: 26px;
+   }
+
+
+
+   /* -----------------------------INFO----------------------------- */
+
+
+
+   .info {
+      padding-top: 0px;
+      padding-bottom: 25px;
+   }
+
+   .info__title {
+      font-size: 20px;
+      line-height: 26px;
+   }
+
+   .info__descr {
+      font-size: 18px;
+      line-height: 26px;
+   }
+
+   .info__content-text {
+      padding-top: 0;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      padding-bottom: 10px;
+   }
+
+   .info__content-right {
+      padding: 0px;
+   }
+
+   .info__content-img {
+      width: 100%;
+   }
+
+   .info-container__btn {
+      width: 230px;
+      height: 50px;
+      font-size: 13px;
+   }
+
+
+
+
+   /* -----------------------------BANNER----------------------------- */
+
+
+
+   .banner {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+   .banner__content {
+      justify-content: center;
+   }
+
+   .banner__content-left {
+      margin-bottom: 10px;
+   }
+
+   .banner__content-img {
+      width: 100%;
+   }
+
+   .banner__content-right {
+      padding-left: 0;
+   }
+
+   .banner__content-title {
+      font-size: 20px;
+   }
+
+
+
+   .banner__content-descr {
+      font-size: 18px;
+   }
+
+
+
+   /* -----------------------------APPEAL----------------------------- */
+
+
+
+   .appeal {
+      padding-top: 25px;
+      padding-bottom: 25px;
+   }
+
+
+   .appeal__content-left {
+      padding-bottom: 15px;
+   }
+
+   .appeal__content-title {
+      justify-content: center;
+      height: 85px;
+      text-align: center;
+   }
+
+   .appeal__content-title::after {
+      height: 85px;
+   }
+
+   .appeal__content-text {
+      font-size: 16px;
+      line-height: 26px;
+      margin-bottom: 30px;
+   }
+
+
+   .appeal__img-block {
+      padding: 0px;
+   }
+
+   .appeal__img-descr {
+      font-size: 16px;
+   }
+
+
+
+   /* -----------------------------BENEFITS----------------------------- */
+
+
+
+   .benefits__title {
+      display: flex;
+      justify-content: center;
+      font-size: 22px;
+   }
+
+   .benefits__list {
+      padding-left: 0;
+   }
+
+   .benefits__list-item {
+      margin-bottom: 15px;
+      font-size: 14px;
+      line-height: 18px;
+   }
+
+
+   .benefits__list-icon svg {
+      width: 24px;
+      height: 24px;
+   }
+
+
+   .benefits__subtitle {
+      font-size: 20px;
+      line-height: 26px;
+   }
+
+
+   /* -----------------------------TASKS----------------------------- */
+
+
+
+   .tasks__content {
+      margin-bottom: 0;
+   }
+
+
+   .tasks__title {
+      margin-bottom: 30px;
+      font-size: 20px;
+      line-height: 26px;
+   }
+
+
+
+   /* -----------------------------TEAM -----------------------------*/
+
+
+
+   .team__subtitlt {
+      font-size: 22px;
+   }
+
+   .team__title {
+      font-size: 30px;
+   }
+
+
+   .team__container-top .bx-viewport {
+      height: 750px;
+   }
+
+   .team__slider-content {
+      justify-content: space-evenly;
+   }
+
+   .team__column {
+      width: 210px;
+      margin-bottom: 20px;
+   }
+
+   .team__card {
+      height: 330px;
+   }
+
+   .team__card-body {
+      padding: 0px 5px;
+      font-size: 12px;
+      line-height: 20px;
+   }
+
+   .team__card-img {
+      height: auto;
+   }
+
+   .team__card-title {
+      font-size: 12px;
+      line-height: 16px;
+      margin-bottom: 5px;
+   }
+
+   .team__card-text {
+      font-size: 12px;
+      line-height: 16px;
+   }
+
+   .team__content-text {
+      font-size: 20px;
+      line-height: 26px;
+   }
+
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+
+
+   .reviews__video-block {
+      height: 210px;
+   }
+
+
+
+
+   /* -----------------------------REVIEWS----------------------------- */
+
+
+
+
+
+
+
+
+   /* -----------------------------DISCONT----------------------------- */
+
+
+
+   .discont__content-column {
+      margin-bottom: 20px;
+   }
+
+   .discont__content-title {
+      margin-bottom: 20px;
+      font-size: 24px;
+      line-height: 24px;
+   }
+
+   .discont__content-subtitle {
+      font-size: 18px;
+   }
+
+   .discont__content-text {
+      margin-bottom: 15px;
+      font-size: 16px;
+      line-height: 26px;
+   }
+
+   .discont__subtitle {
+      margin-top: 0px;
+      margin-bottom: 5px;
+      font-size: 20px;
+   }
+
+
+
+
+   /* -----------------------------CERTIFICATES----------------------------- */
+
+
+
+   .sertificates__title {
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+      padding-top: 10px;
+   }
+
+   .sertificates__slider-column {
+      width: 30%;
+   }
+
+   .sertificates__container .bx-viewport {
+      height: auto !important;
+   }
+
+
+
+
+
+   /* -----------------------------MORE----------------------------- */
+
+
+
+
+   .more__title {
+      margin-bottom: 30px;
+      font-size: 20px;
+      line-height: 26px;
+   }
+
+   .more__content-column {
+      justify-content: right;
+   }
+
+
+   .more__content-img {
+      bottom: 200px;
+      left: 0;
+      width: 270px;
+      height: 350px;
+   }
+
+
+   .more__social-block {
+      padding-right: 0px;
+      text-align: center;
+   }
+
+
+
+   /* -----------------------------CONTACTS----------------------------- */
+
+
+   .contacts__content-left {
+      left: 0;
+   }
+
+   .contacts__content-text {
+      font-size: 20px;
+   }
+
+   .contacts__content-img {
+      width: 100%;
+   }
+
+
+
+
+
+   /* -----------------------------FOOTER----------------------------- */
+
+
+
+   .footer__title {
+      justify-content: center;
+      font-size: 20px;
+   }
+
+   .footer__icon {
+      padding-left: 0;
+   }
+
+   .footer__list {
+      padding-left: 25px;
+   }
+
+
 }
